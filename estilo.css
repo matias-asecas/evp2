@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu-principal a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.botones {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.promocion-suri, .despierta-energia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    margin: 20px;
+}
+
+.promocion-suri .imagen img, .despierta-energia .imagen img {
+    width: 350px;
+    height: auto;
+}
+
+.promocion-suri .texto, .despierta-energia .texto {
+    width: 50%;
+}
+
+.promocion-suri .boton, .despierta-energia .boton {
+    background-color: #006241;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.promocion-suri .boton:hover, .despierta-energia .boton:hover {
+    background-color: #004b30;
+}
+
+.boton-iniciar-sesion {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-iniciar-sesion:hover {
+    background-color: #f1f1f1;
+}
+
+.boton-registrate {
+    background-color: #868585;
+    color: #ffffff; 
+    border: 2px solid #000000;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.boton-registrate:hover {
+    background-color: #333;
+}
+
+.pie-de-pagina {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconos-redes {
+    display: flex;
+    align-items: center;
+}
+
+.iconos-redes a {
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.recuadro-redes {
+    background-color: #e3e3e3;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.libro-logo img {
+    width: 100px; 
+}
+
+.menu-secundario a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
